@@ -4,13 +4,13 @@ export const accountsController = {
   index: {
     auth: false,
     handler: function (request, h) {
-      return h.view("Main", { title: "Welcome to Donation" });
+      return h.view("Main", { title: "Welcome to Flea Markets" });
     },
   },
   showSignup: {
     auth: false,
     handler: function (request, h) {
-      return h.view("Signup", { title: "Sign up for Donation" });
+      return h.view("Signup", { title: "Sign up for Flea Markets" });
     },
   },
   signup: {
@@ -24,7 +24,7 @@ export const accountsController = {
   showLogin: {
     auth: false,
     handler: function (request, h) {
-      return h.view("Login", { title: "Login to Donation" });
+      return h.view("Login", { title: "Login to Flea Markets" });
     },
   },
   login: {
